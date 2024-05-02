@@ -1,0 +1,9 @@
+name: Deploy to staging
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print out
+        run: echo this is a manually invoked workflow
